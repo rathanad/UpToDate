@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.palle.rathan.uptodate.login.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:hint="Username"
+        android:gravity="center"
+        android:id="@+id/editText_username"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <EditText
+        android:hint="Password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:id="@+id/editText_password"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="Login"
+        android:id="@+id/button_login"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Not registerd?"
+            android:textSize="20sp"
+            android:id="@+id/text_not_registered"
+            />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/text_not_registered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textColor="#5858a7"
+            android:textSize="20sp"
+            android:id="@+id/text_register"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
